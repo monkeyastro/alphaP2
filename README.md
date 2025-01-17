@@ -15,9 +15,9 @@
 
 * File discriptions *
 
-1. controller/evdev_controlthread.py : linux xbox controller interface code
-2. contorller/ik.py                  : ik calculator. Simplified code for battery assembly. 
-3. fastech/protocol.py               : fastech servo control api 
-4. fastech/servo_state.py            : Joint state publisher
-5. fastech/servolist.py              : kind of header for protocol
-6. ros2/interface.py                 : default ros2 interface for the real robot
+1. image_print.py  : printing original image
+2. canny_trial.py  : image with canny process applied to detect edge
+3. sobel_trial.py  : image sliced with sobel process apllied 
+4. slicing_canny.py  : image sliced with canny and gaussian blur applied
+5. holedetect_withloc.py  : detect hole with houghcircle, points the position of it
+6. ai_adv_holedetct.py(unfinished part yet) : ai model trained with given pictures(about 400 data)
