@@ -1,4 +1,4 @@
-# alphaP2 - IndVision
+# IndVision
 
 * Requirements *
 
@@ -12,6 +12,7 @@
 4. requests : https protocol api (ros2 msgs via ros2-websocket bridge)
 5. torchvision : dataset(image) settings, transform for image pre-processing and tensor for learning
 6. image : PIL, image load
+7. realsense : using realsense camera for detecting distance
 
 * File discriptions *
 
@@ -21,3 +22,4 @@
 4. slicing_canny.py  : image sliced with canny and gaussian blur applied
 5. holedetect_withloc.py  : detect hole with houghcircle, points the position of it
 6. ai_adv_holedetct.py(unfinished part yet) : ai model trained with given pictures(about 400 data)
+7. mid_point.py : detect the points(the position) of guide pin
